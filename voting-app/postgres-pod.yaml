@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: postgres-pod
-    image: postgres:9.4
+    image: postgres:12.2
     ports:
       - containerPort: 5432
